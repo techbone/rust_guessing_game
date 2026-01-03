@@ -20,9 +20,11 @@ fn main() {
 
          println!("You guessed: {guess}");
 
-         let guess:u32 = guess.trim()
-                              .parse()
-                              .expect("please type a number");
+         let guess:u32 = match guess.trim()
+                              .parse() {
+                              Ok(num) => num,
+                              Err(_) => continue
+                              };
 
          match guess.cmp(&secret_number) {
 
