@@ -1,5 +1,6 @@
 use std::io;
 use rand::Rng;
+use std::cmp::Ordering;
 
 fn main() {
   println!("Guess a number!");
@@ -17,5 +18,17 @@ fn main() {
         .expect("Failed to read line");
 
          println!("You guessed: {guess}");
+
+         let guess:u32 = guess.trim()
+                              .parse()
+                              .expect("please type a number");
+
+         match guess.cmp(&secret_number) {
+
+            Ordering::Less => println! ("Too small"),
+            Ordering::Equal => println!("You win!🎊"),
+            Ordering::Greater => println!("Too  Big")
+         }
+
 
 }
