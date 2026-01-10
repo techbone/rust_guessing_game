@@ -3,9 +3,20 @@ use rand::Rng;
 use std::cmp::Ordering;
 
 fn main() {
+
+  println!("What is your name ?");
+
+  let mut name = String::new();
+
+  io::stdin()
+      .read_line(&mut name)
+      .expect("input your name!");
+
+      println!("Migoto!, so your name is {name}");
+
   println!("Guess a number rn!");
 
-  let secret_number = rand::thread_rng().gen_range(1..=100);
+  let secret_number = rand::thread_rng().gen_range(1..=10);
 
   loop {
       println!("Input the guessed number:");
@@ -26,10 +37,10 @@ fn main() {
 
          match guess.cmp(&secret_number) {
 
-            Ordering::Less => println! ("Too small"),
-            Ordering::Greater =>println!("Too  Big"),
+            Ordering::Less => println! ("common {name} that's Too small 😂"),
+            Ordering::Greater =>println!("leemao {name} that's Too  Big 🤦🏾"),
             Ordering::Equal => {
-                println!("You got the guess right!🎊");
+                println!("You got the guess right {name}, smart ass!🎊");
                 break;
          }
             }
