@@ -18,7 +18,12 @@ fn main() {
 
   let secret_number = rand::thread_rng().gen_range(1..=10);
 
+  let mut attempts = 0;
+
   loop {
+      
+    attempts+=1;
+      
       println!("Input the guessed number:");
 
   let mut guess = String::new();
@@ -40,7 +45,7 @@ fn main() {
             Ordering::Less => println! ("common {name} that's Too small 😂"),
             Ordering::Greater =>println!("leemao {name} that's Too  Big 🤦🏾"),
             Ordering::Equal => {
-                println!("You got the guess right {name}, smart ass!🎊");
+                println!("You got the guess right {name}, and it took you {attempts} attempts!🎊");
                 break;
          }
             }
