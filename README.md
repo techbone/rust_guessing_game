@@ -1,4 +1,4 @@
-# Rust Guessing Game 🦀
+# Rust Guessing Game
 
 A simple command-line guessing game written in Rust.
 
@@ -7,7 +7,7 @@ I intentionally avoided using AI while building this to fully understand the fun
 
 ---
 
-## 🧠 What This Project Does
+## What This Project Does
 
 - Prompts the user for their name
 - Generates a random secret number between 1 and 10
@@ -18,7 +18,7 @@ I intentionally avoided using AI while building this to fully understand the fun
 
 ---
 
-## 🛠️ Concepts Practiced
+## The Concepts Practiced
 
 This project helped me understand and practice:
 
@@ -32,7 +32,7 @@ This project helped me understand and practice:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 Make sure you have Rust installed.  
 If not, install it from: https://www.rust-lang.org/tools/install
