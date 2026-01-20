@@ -5,8 +5,6 @@ A simple command-line guessing game written in Rust.
 This project is part of my journey learning Rust using _The Rust Programming Language_ (the official Rust book).  
 I intentionally avoided using AI while building this to fully understand the fundamentals.
 
----
-
 ## What This Project Does
 
 - Prompts the user for their name
@@ -15,8 +13,6 @@ I intentionally avoided using AI while building this to fully understand the fun
 - Provides feedback if the guess is too small or too big
 - Tracks the number of attempts
 - Ends when the correct number is guessed
-
----
 
 ## The Concepts Practiced
 
