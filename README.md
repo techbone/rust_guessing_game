@@ -7,7 +7,7 @@ I intentionally avoided using AI while building this to fully understand the fun
 
 ## What This Project Does
 
-- Prompts the user for their name
+- The Game Prompts the user for their name
 - Generates a random secret number between 1 and 10
 - Repeatedly asks the user to guess the number
 - Provides feedback if the guess is too small or too big
