@@ -23,7 +23,6 @@ This project helped me understand and practice:
 - Pattern matching with `match`
 - Error handling using `Result`
 - Comparing values using enums (`std::cmp::Ordering`)
-- Loops and control flow
 - Basic usage of external crates (`rand`)
 
 ---
