@@ -1,6 +1,6 @@
 # Rust Guessing Game
 
-A simple command-line guessing game written in Rust.
+A simple and concise command-line guessing game written in Rust.
 
 This project is part of my journey learning Rust using _The Rust Programming Language_ (the official Rust book).  
 I intentionally avoided using AI while building this to fully understand the fundamentals.
@@ -22,7 +22,7 @@ This project helped me understand and practice:
 - Working with mutable variables
 - Pattern matching with `match`
 - Error handling using `Result`
-- Comparing values using enums (`std::cmp::Ordering`)
+- Comparing values using enums (`std::cmp::Ordering`)a
 - Basic usage of external crates (`rand`)
 
 ---
