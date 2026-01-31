@@ -4,6 +4,8 @@ use std::cmp::Ordering;
 
 fn main() {
 
+  println!("Welcome to the Guessing Game!");
+
   println!("What is your name ?");
 
   let mut name = String::new();
