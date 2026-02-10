@@ -16,7 +16,7 @@ fn main() {
 
       println!("Migoto!, so your name is {name}");
 
-  println!("Guess a number rn!");
+  println!("Guess a number rn!!");
 
   let secret_number = rand::thread_rng().gen_range(1..=5);
 
