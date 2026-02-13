@@ -14,7 +14,7 @@ fn main() {
       .read_line(&mut name)
       .expect("input your name!");
 
-      println!("Migoto!, so your name is {name}");
+      println!("Migoto!, so your name is {name}!");
 
   println!("Guess a number rn!!");
 
